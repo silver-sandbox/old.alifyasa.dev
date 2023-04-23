@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <a 
-    class="w-40 h-20 inline-block align-middle rounded-sm"
+    class="h-full inline-block align-middle rounded-sm"
     :href="link_"
     target="_blank"
     :aria-label="`${alt_} Link`"

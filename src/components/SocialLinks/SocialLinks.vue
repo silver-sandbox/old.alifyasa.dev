@@ -7,12 +7,12 @@ import LinkedIn_Logo from "@/assets/social_logo/linkedin.png"
 </script>
 
 <template>
-  <div aria-label="Social Media Profiles" class="absolute bottom-0 w-full">
+  <div aria-label="Social Media Profiles" class="absolute bottom-0 w-full h-1/6">
   <div 
-    class="w-full bg-zinc-600 text-center font-montserrat text-2xl text-zinc-100 font-medium py-2"
+    class="w-full bg-zinc-600 font-montserrat text-zinc-100 font-medium py-1 h-1/3 xl:text-2xl text-lg flex justify-center items-center"
     aria-label="Section Title"
     >FOLLOW ME</div>
-  <div class="w-full px-4 bg-zinc-100 flex justify-evenly">
+  <div class="w-full py-2 xl:py-4 bg-zinc-100 flex justify-evenly h-2/3">
     <SocialLink 
       link_="https://github.com/malifpy" 
       :img_=GitHub_Logo

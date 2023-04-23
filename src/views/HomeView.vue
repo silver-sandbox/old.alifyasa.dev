@@ -5,17 +5,16 @@ import SocialLinks from '../components/SocialLinks/SocialLinks.vue'
 <template>
   <main aria-label="Page Content">
     <div
-        class="font-bodoni-moda w-full text-zinc-100 px-16 flex flex-col justify-center overflow-x-hidden overflow-y-auto absolute top-0"
-        style="height: calc(100% - 8rem)"
+        class="font-bodoni-moda w-full text-zinc-100 px-16 flex flex-col justify-center overflow-x-hidden overflow-y-auto absolute top-0 h-5/6"
       >
       <div 
-        class="sm:text-8xl xl:text-9xl/tight text-right my-8 w-full"
+        class="md:text-7xl lg:text-8xl/tight xl:text-9xl/tight text-right my-4 w-full"
         aria-label="My Name"
       >
       Muhammad <span class="underline">Alif</span><br/>Putra <span class="underline">Yasa</span>
       </div>
       <div
-        class="sm:text-2xl xl:text-3xl/tight text-left w-full my-4 italic"
+        class="md:text-xl/tight lg:text-2xl xl:text-3xl/tight text-left w-full my-4 italic"
         aria-label="Short description about myself"
       >
       <a href="https://stei.itb.ac.id/en/undergraduate-programs/bachelor-informatics/" target="_blank">
